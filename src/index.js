@@ -7,23 +7,23 @@ import CssBaseline from '@mui/material/CssBaseline';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#327C81',
-      light: '#83C5BE',
-      dark: '#1d474a',
-      contrastText: '#FFFFFF',
+      main: '#9E5E4B',
+      light: '#C4A090',
+      dark: '#4D2D2A',
+      contrastText: '#F8F1E9',
     },
     secondary: {
-      main: '#F472B6',
-      light: '#ff92d3',
-      dark: '#fab9db',
-      contrastText: '#FFFFFF',
+      main: '#96C98D',
+      light: '#B5D9AE',
+      dark: '#6FA865',
+      contrastText: '#4D2D2A',
     },
     background: {
-      default: '#FFFFFF',
+      default: '#F8F1E9',
       paper: '#FFFFFF',
     },
     text: {
-      primary: '#1d474a',
+      primary: '#4D2D2A',
       secondary: '#787878',
     },
     grey: {
@@ -35,32 +35,32 @@ const theme = createTheme({
     h1: {
       fontWeight: 700,
       fontSize: '3.5rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     h2: {
       fontWeight: 600,
       fontSize: '2.5rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     h3: {
       fontWeight: 600,
       fontSize: '2rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     h4: {
       fontWeight: 600,
       fontSize: '1.5rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     h5: {
       fontWeight: 600,
       fontSize: '1.25rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     h6: {
       fontWeight: 600,
       fontSize: '1rem',
-      color: '#1d474a',
+      color: '#4D2D2A',
     },
     button: {
       textTransform: 'none',
