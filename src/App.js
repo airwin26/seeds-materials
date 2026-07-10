@@ -17,6 +17,18 @@ import {
   MenuItem,
 } from '@mui/material';
 
+const categoryChipSx = {
+  mt: 1,
+  mb: 1,
+  bgcolor: 'secondary.light',
+  color: '#457A3E',
+  fontWeight: 500,
+  borderRadius: '16px',
+  '& .MuiChip-label': {
+    px: 1.5,
+  },
+};
+
 function CategoryDropdown({ id, categories, selected, onSelect }) {
   return (
     <FormControl size="small" sx={{ minWidth: 200 }}>
@@ -44,7 +56,8 @@ function matchesSearch(item, searchTerm) {
   const term = searchTerm.toLowerCase();
   return (
     item.title.toLowerCase().includes(term) ||
-    (item.category && item.category.toLowerCase().includes(term))
+    (item.category && item.category.toLowerCase().includes(term)) ||
+    (item.description && item.description.toLowerCase().includes(term))
   );
 }
 
@@ -88,10 +101,16 @@ function App() {
 
   return (
     <Box sx={{ flexGrow: 1, bgcolor: 'background.default', minHeight: '100vh' }}>
-      <AppBar position="static" elevation={0} sx={{ bgcolor: '#327C81' }}>
-        <Toolbar sx={{ display: 'flex', alignItems: 'center' }}>
+      <AppBar
+        position="static"
+        elevation={0}
+        sx={{
+          bgcolor: 'primary.dark',
+        }}
+      >
+        <Toolbar sx={{ display: 'flex', alignItems: 'center', py: 1 }}>
           <Box sx={{ display: 'flex', alignItems: 'center', mr: 2 }}>
-            <img src="/logo.svg" alt="Code Adventure Logo" style={{ height: 24, marginRight: 10 }} />
+            <img src="/seeds_logo.png" alt="Seeds International Logo" style={{ height: 44 }} />
           </Box>
           <Box sx={{ flexGrow: 1 }} />
         </Toolbar>
@@ -99,9 +118,15 @@ function App() {
 
       <Box
         sx={{
-          height: { xs: '200px', sm: '300px' },
+          minHeight: { xs: '200px', sm: '320px' },
+          py: { xs: 3, sm: 0 },
           width: '100%',
-          background: '#25636b',
+          backgroundImage: {
+            xs: "url('/seeds_banner.png')",
+            md: "url('/seeds_banner_wide.png')",
+          },
+          backgroundSize: 'cover',
+          backgroundPosition: 'center bottom',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -109,12 +134,31 @@ function App() {
           overflow: 'hidden',
         }}
       >
-        <Container maxWidth="md" sx={{ textAlign: 'center' }}>
-          <Typography variant="h2" sx={{ mb: 2, fontWeight: 700, color: 'primary.contrastText' }}>
-            Code Adventure Resources
+        <Container maxWidth="md" sx={{ textAlign: 'center', px: { xs: 2, sm: 3 } }}>
+          <Typography
+            variant="h2"
+            sx={{
+              mb: { xs: 1, sm: 2 },
+              fontWeight: 700,
+              color: 'primary.dark',
+              fontSize: { xs: '1.35rem', sm: '2rem', md: '2.75rem' },
+              lineHeight: { xs: 1.2, sm: 1.3 },
+            }}
+          >
+            Seeds International Resources
           </Typography>
-          <Typography variant="h5" sx={{ mb: 4, color: 'primary.contrastText', opacity: 0.9 }}>
-            Your one-stop shop for all Code Adventure resources
+          <Typography
+            variant="h5"
+            sx={{
+              mb: { xs: 2, sm: 4 },
+              color: 'primary.dark',
+              fontWeight: 400,
+              fontSize: { xs: '0.85rem', sm: '1.1rem', md: '1.5rem' },
+              lineHeight: 1.4,
+              display: { xs: 'none', sm: 'block' },
+            }}
+          >
+            Your one-stop shop for all Seeds International resources
           </Typography>
           <TextField
             fullWidth
@@ -127,16 +171,16 @@ function App() {
               maxWidth: '400px',
               mx: 'auto',
               '& .MuiOutlinedInput-root': {
-                bgcolor: 'rgba(255, 255, 255, 0.9)',
+                bgcolor: 'background.paper',
                 height: '40px',
                 '& fieldset': {
-                  borderColor: 'rgba(255, 255, 255, 0.5)',
+                  borderColor: 'primary.light',
                 },
                 '&:hover fieldset': {
-                  borderColor: 'rgba(255, 255, 255, 0.8)',
+                  borderColor: 'primary.main',
                 },
                 '&.Mui-focused fieldset': {
-                  borderColor: 'white',
+                  borderColor: 'primary.main',
                 },
               },
               '& .MuiInputBase-input': {
@@ -187,16 +231,7 @@ function App() {
                   <Chip
                     label={link.category}
                     size="small"
-                    sx={{
-                      mt: 1,
-                      mb: 1,
-                      bgcolor: 'primary.light',
-                      color: 'primary.dark',
-                      fontWeight: 500,
-                      '& .MuiChip-label': {
-                        px: 1,
-                      },
-                    }}
+                    sx={categoryChipSx}
                   />
                   {link.links ? (
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 1 }}>
@@ -255,7 +290,7 @@ function App() {
       {/* Additional Resources Section */}
       <Box sx={{
         width: '100vw',
-        bgcolor: 'rgba(50, 124, 129, 0.15)',
+        bgcolor: 'rgba(158, 94, 75, 0.08)',
         py: 6,
         mt: 8,
         position: 'relative',
@@ -278,7 +313,7 @@ function App() {
           </Box>
           <Grid container spacing={2}>
             {filteredAdditionalResources.map((resource) => (
-              <Grid item xs={12} sm={6} md={4} lg={3} key={resource.id}>
+              <Grid item xs={12} sm={6} md={4} key={resource.id}>
                 <Card sx={{
                   height: '100%',
                   display: 'flex',
@@ -298,17 +333,16 @@ function App() {
                     <Chip
                       label={resource.category}
                       size="small"
-                      sx={{
-                        mt: 1,
-                        mb: 1,
-                        bgcolor: 'primary.light',
-                        color: 'primary.dark',
-                        fontWeight: 500,
-                        '& .MuiChip-label': {
-                          px: 1,
-                        },
-                      }}
+                      sx={categoryChipSx}
                     />
+                    {resource.description && (
+                      <Typography
+                        variant="body2"
+                        sx={{ color: 'text.secondary', mb: 2, lineHeight: 1.5 }}
+                      >
+                        {resource.description}
+                      </Typography>
+                    )}
                     <Button
                       href={resource.url}
                       target="_blank"

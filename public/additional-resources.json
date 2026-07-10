@@ -197,30 +197,86 @@
   },
   {
     "id": 29,
-    "title": "SheTech Explorer",
-    "url": "https://www.shetechexplorer.com/",
-    "category": "Local Events",
-    "description": "A hands-on technology conference for high school girls"
+    "title": "Cambodia Academy of Digital Technology (CADT)",
+    "url": "https://cadt.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Explore digital technology, computer science, AI, data, and cybersecurity programs."
   },
   {
     "id": 30,
-    "title": "BYU Cyber Camps",
-    "url": "https://cybercamps.byu.edu/",
-    "category": "Local Events",
-    "description": "BYU cybersecurity camps for middle and high school students"
+    "title": "Institute of Technology of Cambodia (ITC)",
+    "url": "https://itc.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Learn about engineering, ICT, data science, and technology programs."
   },
   {
     "id": 31,
-    "title": "University of Utah Technology Camps",
-    "url": "https://continue.utah.edu/youth/sci-tech",
-    "category": "Local Events",
-    "description": "Technology and STEM camps for Utah students"
+    "title": "American University of Phnom Penh (AUPP)",
+    "url": "https://www.aupp.edu.kh/faculty-of-digital-technologies/",
+    "category": "Colleges & Universities",
+    "description": "Explore software, cybersecurity, data science, AI, and digital technology majors."
   },
   {
     "id": 32,
-    "title": "Utah STEM Summer Camps",
-    "url": "https://stem.utah.gov/students/summer-camps/",
-    "category": "Local Events",
-    "description": "A directory of STEM camps and opportunities across Utah"
+    "title": "National University of Management (NUM)",
+    "url": "https://fit.num.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Explore information technology, computer science, AI, data, and cybersecurity."
+  },
+  {
+    "id": 33,
+    "title": "BarCamp Cambodia",
+    "url": "https://www.facebook.com/barcampcambodia/",
+    "category": "Tech Communities & Events",
+    "description": "Attend local tech events to learn, network, and explore careers."
+  },
+  {
+    "id": 34,
+    "title": "Google Developer Groups Phnom Penh",
+    "url": "https://www.meetup.com/phnom-penh-google-developer-group-meetup/",
+    "category": "Tech Communities & Events",
+    "description": "Join free developer workshops, talks, and community events."
+  },
+  {
+    "id": 35,
+    "title": "Startup Cambodia",
+    "url": "https://startupcambodia.gov.kh/",
+    "category": "Tech Communities & Events",
+    "description": "Find startup events, programs, and innovation opportunities in Cambodia."
+  },
+  {
+    "id": 36,
+    "title": "Khmer Enterprise",
+    "url": "https://www.khmerenterprise.info/",
+    "category": "Tech Communities & Events",
+    "description": "Discover entrepreneurship programs, training, events, and startup support."
+  },
+  {
+    "id": 37,
+    "title": "Passerelles Numériques Cambodia",
+    "url": "https://www.passerellesnumeriques.org/what-we-do/cambodia/",
+    "category": "Career Resources",
+    "description": "Explore a Phnom Penh IT training pathway for underserved youth."
+  },
+  {
+    "id": 38,
+    "title": "Google Career Certificates",
+    "url": "https://career.skills.google/",
+    "category": "Career Resources",
+    "description": "Learn job-ready skills in IT, data analytics, cybersecurity, and UX."
+  },
+  {
+    "id": 39,
+    "title": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/",
+    "category": "Career Resources",
+    "description": "Build skills in AI, programming, cloud, cybersecurity, and Microsoft tools."
+  },
+  {
+    "id": 40,
+    "title": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/",
+    "category": "Career Resources",
+    "description": "Learn networking, cybersecurity, Python, AI, and IT career skills."
   }
 ]

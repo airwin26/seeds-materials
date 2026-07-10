@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Pre-Survey",
-    "url": "https://docs.google.com/forms/d/e/1FAIpQLSd-qKlB6k38VMhtygIXowpH9xe_UNKRzHuIGVCtIH4fhi4xSA/viewform",
+    "url": "https://forms.gle/VJXpnKYupp5pTZfP6",
     "category": "Orientation"
   },
   {
@@ -58,24 +58,42 @@
   },
   {
     "id": 9,
+    "title": "Menti",
+    "url": "https://www.menti.com/",
+    "category": "Data Analytics"
+  },
+  {
+    "id": 10,
     "title": "SQL Playground",
     "url": "https://sql-playground.codeadventure.net/",
     "category": "Data Analytics"
   },
   {
-    "id": 10,
+    "id": 11,
+    "title": "SQL Cheat Sheet",
+    "url": "https://media.datacamp.com/cms/sql-for-data-science.pdf",
+    "category": "Data Analytics"
+  },
+  {
+    "id": 12,
     "title": "JavaScript Playground",
     "url": "https://tech-playground-js.codeadventure.net/",
     "category": "Software Engineering"
   },
   {
-    "id": 11,
+    "id": 13,
+    "title": "JavaScript Cheat Sheet",
+    "url": "https://coddy.tech/cheat-sheets/javascript",
+    "category": "Software Engineering"
+  },
+  {
+    "id": 14,
     "title": "UX Design Instructions",
     "url": "https://docs.google.com/document/d/1A2R79SeOeJYK6ApP6Gol-cD6nIhOFXpr/edit?usp=sharing&ouid=117648104524383484488&rtpof=true&sd=true",
     "category": "UX Design"
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Arena Pro (Sports)",
     "category": "UX Design",
     "links": [
@@ -90,7 +108,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Vibrant Harmony (Music)",
     "category": "UX Design",
     "links": [
@@ -105,7 +123,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "TravelFlow (Travel)",
     "category": "UX Design",
     "links": [
@@ -120,21 +138,33 @@
     ]
   },
   {
-    "id": 15,
+    "id": 18,
+    "title": "User Inyerface - UX Game",
+    "url": "https://userinyerface.com/",
+    "category": "UX Design"
+  },
+  {
+    "id": 19,
     "title": "Final Project Instructions",
     "url": "https://docs.google.com/document/d/1U3Z8Z-nuGyRUl4z8gyAe9lb0_2qbVGegFTw-jC2Tnc4/edit?usp=sharing",
     "category": "Web Development"
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Final Project CodeSandbox",
     "url": "https://codesandbox.io/p/sandbox/code-adventure-final-project-jprspt",
     "category": "Web Development"
   },
   {
-    "id": 17,
+    "id": 21,
+    "title": "HTML/CSS Cheat Sheet",
+    "url": "https://syntaxsimplified.com/cheatsheet/HTML/hypertext_markup_language.html",
+    "category": "Web Development"
+  },
+  {
+    "id": 22,
     "title": "Post-Survey",
-    "url": "https://forms.gle/AKSBsYTQiBTrMsW87",
+    "url": "https://forms.gle/7MabYcKPct2JAGGYA",
     "category": "Orientation"
   }
 ]
