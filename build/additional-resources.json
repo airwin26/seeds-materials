@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Codecademy SQL Lessons",
+    "url": "https://www.codecademy.com/learn/learn-sql",
+    "category": "Data Analytics",
+    "description": "An online course to learn SQL"
+  },
+  {
+    "id": 2,
+    "title": "SQLBolt SQL Lessons",
+    "url": "https://sqlbolt.com/",
+    "category": "Data Analytics",
+    "description": "Learn SQL with simple, interactive exercises"
+  },
+  {
+    "id": 3,
+    "title": "W3Schools SQL Tutorial",
+    "url": "https://www.w3schools.com/sql/default.asp",
+    "category": "Data Analytics",
+    "description": "A comprehensive SQL tutorial"
+  },
+  {
+    "id": 4,
+    "title": "Murder Mystery SQL Game",
+    "url": "https://mystery.knightlab.com/",
+    "category": "Data Analytics",
+    "description": "Solve a mystery while practicing SQL queries"
+  },
+  {
+    "id": 5,
+    "title": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn",
+    "category": "Data Analytics",
+    "description": "Free beginner-friendly lessons on data analysis, SQL, Python, and AI"
+  },
+  {
+    "id": 6,
+    "title": "Tableau Public",
+    "url": "https://public.tableau.com/",
+    "category": "Data Analytics",
+    "description": "Create and explore interactive data visualizations"
+  },
+  {
+    "id": 7,
+    "title": "W3Schools JavaScript Tutorial",
+    "url": "https://www.w3schools.com/js/default.asp",
+    "category": "Software Engineering",
+    "description": "A comprehensive JavaScript tutorial"
+  },
+  {
+    "id": 8,
+    "title": "Codecademy JavaScript Lessons",
+    "url": "https://www.codecademy.com/learn/introduction-to-javascript",
+    "category": "Software Engineering",
+    "description": "Online JavaScript lessons from Codecademy"
+  },
+  {
+    "id": 9,
+    "title": "Khan Academy Computer Programming",
+    "url": "https://www.khanacademy.org/computing/computer-programming",
+    "category": "Software Engineering",
+    "description": "Computer programming course from Khan Academy"
+  },
+  {
+    "id": 10,
+    "title": "CheckiO Python Game",
+    "url": "https://py.checkio.org/",
+    "category": "Software Engineering",
+    "description": "Practice coding through fun Python challenges"
+  },
+  {
+    "id": 11,
+    "title": "Codédex",
+    "url": "https://www.codedex.io/",
+    "category": "Software Engineering",
+    "description": "Learn programming through fun, game-like coding adventures"
+  },
+  {
+    "id": 12,
+    "title": "freeCodeCamp",
+    "url": "https://www.freecodecamp.org/",
+    "category": "Software Engineering",
+    "description": "Free coding lessons and projects for web development and programming"
+  },
+  {
+    "id": 13,
+    "title": "W3Schools HTML Tutorial",
+    "url": "https://www.w3schools.com/html/default.asp",
+    "category": "Web Development",
+    "description": "A comprehensive HTML tutorial"
+  },
+  {
+    "id": 14,
+    "title": "W3Schools CSS Tutorial",
+    "url": "https://www.w3schools.com/css/default.asp",
+    "category": "Web Development",
+    "description": "A comprehensive CSS tutorial"
+  },
+  {
+    "id": 15,
+    "title": "Flexbox Froggy",
+    "url": "https://flexboxfroggy.com/",
+    "category": "Web Development",
+    "description": "Learn CSS Flexbox by helping frogs reach their lily pads"
+  },
+  {
+    "id": 16,
+    "title": "Grid Garden",
+    "url": "https://cssgridgarden.com/",
+    "category": "Web Development",
+    "description": "Learn CSS Grid by growing a virtual garden"
+  },
+  {
+    "id": 17,
+    "title": "CSS Battle",
+    "url": "https://cssbattle.dev/",
+    "category": "Web Development",
+    "description": "Fun visual puzzles that teach CSS skills"
+  },
+  {
+    "id": 18,
+    "title": "W3Schools SQL Injection Tutorial",
+    "url": "https://www.w3schools.com/sql/sql_injection.asp",
+    "category": "Cyber Security",
+    "description": "Learn about SQL injection attacks and how to prevent them"
+  },
+  {
+    "id": 19,
+    "title": "Cross-Site Scripting Game",
+    "url": "https://xss-game.appspot.com/level1",
+    "category": "Cyber Security",
+    "description": "Practice identifying and preventing XSS attacks"
+  },
+  {
+    "id": 20,
+    "title": "PicoCTF",
+    "url": "https://picoctf.org/",
+    "category": "Cyber Security",
+    "description": "Beginner-friendly cybersecurity challenges and competitions"
+  },
+  {
+    "id": 21,
+    "title": "Google Phishing Quiz",
+    "url": "https://phishingquiz.withgoogle.com/",
+    "category": "Cyber Security",
+    "description": "Learn how to identify phishing emails and online scams"
+  },
+  {
+    "id": 22,
+    "title": "User Inyerface - UX Game",
+    "url": "https://userinyerface.com/",
+    "category": "UX Design",
+    "description": "An intentionally frustrating website that teaches UX design principles"
+  },
+  {
+    "id": 23,
+    "title": "Free UX Design Course",
+    "url": "https://www.mygreatlearning.com/academy/learn-for-free/courses/ui-ux",
+    "category": "UX Design",
+    "description": "A free introduction to UI and UX design"
+  },
+  {
+    "id": 24,
+    "title": "Figma Learn",
+    "url": "https://help.figma.com/hc/en-us/categories/360002051613",
+    "category": "UX Design",
+    "description": "Official tutorials for learning Figma and interface design"
+  },
+  {
+    "id": 25,
+    "title": "Teachable Machine",
+    "url": "https://teachablemachine.withgoogle.com/",
+    "category": "Artificial Intelligence",
+    "description": "Create simple AI models without coding"
+  },
+  {
+    "id": 26,
+    "title": "AI for Oceans",
+    "url": "https://code.org/oceans",
+    "category": "Artificial Intelligence",
+    "description": "Train an AI model while helping clean virtual oceans"
+  },
+  {
+    "id": 27,
+    "title": "Machine Learning for Kids",
+    "url": "https://machinelearningforkids.co.uk/",
+    "category": "Artificial Intelligence",
+    "description": "Build fun AI projects and games while learning how machine learning works"
+  },
+  {
+    "id": 28,
+    "title": "Suno",
+    "url": "https://suno.com/",
+    "category": "Artificial Intelligence",
+    "description": "Create original songs and music using AI"
+  },
+  {
+    "id": 29,
+    "title": "Cambodia Academy of Digital Technology (CADT)",
+    "url": "https://cadt.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Explore digital technology, computer science, AI, data, and cybersecurity programs."
+  },
+  {
+    "id": 30,
+    "title": "Institute of Technology of Cambodia (ITC)",
+    "url": "https://itc.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Learn about engineering, ICT, data science, and technology programs."
+  },
+  {
+    "id": 31,
+    "title": "American University of Phnom Penh (AUPP)",
+    "url": "https://www.aupp.edu.kh/faculty-of-digital-technologies/",
+    "category": "Colleges & Universities",
+    "description": "Explore software, cybersecurity, data science, AI, and digital technology majors."
+  },
+  {
+    "id": 32,
+    "title": "National University of Management (NUM)",
+    "url": "https://fit.num.edu.kh/",
+    "category": "Colleges & Universities",
+    "description": "Explore information technology, computer science, AI, data, and cybersecurity."
+  },
+  {
+    "id": 33,
+    "title": "BarCamp Cambodia",
+    "url": "https://www.facebook.com/barcampcambodia/",
+    "category": "Tech Communities & Events",
+    "description": "Attend local tech events to learn, network, and explore careers."
+  },
+  {
+    "id": 34,
+    "title": "Google Developer Groups Phnom Penh",
+    "url": "https://www.meetup.com/phnom-penh-google-developer-group-meetup/",
+    "category": "Tech Communities & Events",
+    "description": "Join free developer workshops, talks, and community events."
+  },
+  {
+    "id": 35,
+    "title": "Startup Cambodia",
+    "url": "https://startupcambodia.gov.kh/",
+    "category": "Tech Communities & Events",
+    "description": "Find startup events, programs, and innovation opportunities in Cambodia."
+  },
+  {
+    "id": 36,
+    "title": "Khmer Enterprise",
+    "url": "https://www.khmerenterprise.info/",
+    "category": "Tech Communities & Events",
+    "description": "Discover entrepreneurship programs, training, events, and startup support."
+  },
+  {
+    "id": 37,
+    "title": "Passerelles Numériques Cambodia",
+    "url": "https://www.passerellesnumeriques.org/what-we-do/cambodia/",
+    "category": "Career Resources",
+    "description": "Explore a Phnom Penh IT training pathway for underserved youth."
+  },
+  {
+    "id": 38,
+    "title": "Google Career Certificates",
+    "url": "https://career.skills.google/",
+    "category": "Career Resources",
+    "description": "Learn job-ready skills in IT, data analytics, cybersecurity, and UX."
+  },
+  {
+    "id": 39,
+    "title": "Microsoft Learn",
+    "url": "https://learn.microsoft.com/training/",
+    "category": "Career Resources",
+    "description": "Build skills in AI, programming, cloud, cybersecurity, and Microsoft tools."
+  },
+  {
+    "id": 40,
+    "title": "Cisco Networking Academy",
+    "url": "https://www.netacad.com/",
+    "category": "Career Resources",
+    "description": "Learn networking, cybersecurity, Python, AI, and IT career skills."
+  }
+]

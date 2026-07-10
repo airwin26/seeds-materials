@@ -118,7 +118,8 @@ function App() {
 
       <Box
         sx={{
-          height: { xs: '240px', sm: '320px' },
+          minHeight: { xs: '200px', sm: '320px' },
+          py: { xs: 3, sm: 0 },
           width: '100%',
           backgroundImage: {
             xs: "url('/seeds_banner.png')",
@@ -133,11 +134,30 @@ function App() {
           overflow: 'hidden',
         }}
       >
-        <Container maxWidth="md" sx={{ textAlign: 'center' }}>
-          <Typography variant="h2" sx={{ mb: 2, fontWeight: 700, color: 'primary.dark' }}>
+        <Container maxWidth="md" sx={{ textAlign: 'center', px: { xs: 2, sm: 3 } }}>
+          <Typography
+            variant="h2"
+            sx={{
+              mb: { xs: 1, sm: 2 },
+              fontWeight: 700,
+              color: 'primary.dark',
+              fontSize: { xs: '1.35rem', sm: '2rem', md: '2.75rem' },
+              lineHeight: { xs: 1.2, sm: 1.3 },
+            }}
+          >
             Seeds International Resources
           </Typography>
-          <Typography variant="h5" sx={{ mb: 4, color: 'primary.dark', fontWeight: 400 }}>
+          <Typography
+            variant="h5"
+            sx={{
+              mb: { xs: 2, sm: 4 },
+              color: 'primary.dark',
+              fontWeight: 400,
+              fontSize: { xs: '0.85rem', sm: '1.1rem', md: '1.5rem' },
+              lineHeight: 1.4,
+              display: { xs: 'none', sm: 'block' },
+            }}
+          >
             Your one-stop shop for all Seeds International resources
           </Typography>
           <TextField
